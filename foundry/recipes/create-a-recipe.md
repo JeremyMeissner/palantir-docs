@@ -1,0 +1,7 @@
+---
+source_url: "https://www.palantir.com/docs/foundry/recipes/create-a-recipe/"
+parquet_url: "/foundry/recipes/create-a-recipe/"
+title: "Create a recipe"
+fetched_at: "2026-05-12T19:34:37.032Z"
+---
+Create a recipe. There are many ways to create a recipe in Foundry. Use this guide to learn how to create a recipe from the Recipes application, Dataset Preview, and Quiver. From the Recipes application. Open the Recipes application from the navigation sidebar. Click New Recipe in the top right of the interface. You will then be directed to choose a resource to monitor through the recipe. From Dataset Preview. To create a new recipe from the Dataset Preview application, select Create a recipe in the Actions menu. Recipes allow you to send a preview of the dataset by defining the following: Columns of interest. A message to send with the preview. The recipients. The conditions under which the preview will be sent. The type of message (email or notification). A maximum of five columns can be sent in a preview. From Reports. A report can be automated to send out on a schedule to specified recipients as either an attached PDF or an in-email image. From the Reports Actions menu, select Email on a schedule. Then, compose a message to send with the preview. Finally, schedule the email. Select the days on which the report will send. Note that the time zone will default to the recipe creator's local system time zone.

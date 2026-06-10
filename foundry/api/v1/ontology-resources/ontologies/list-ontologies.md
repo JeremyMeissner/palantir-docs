@@ -1,0 +1,7 @@
+---
+source_url: "https://www.palantir.com/docs/foundry/api/v1/ontology-resources/ontologies/list-ontologies/"
+parquet_url: "/foundry/api/v1/ontology-resources/ontologies/list-ontologies/"
+title: "List Ontologies"
+fetched_at: "2026-05-12T19:34:37.512Z"
+---
+List Ontologies. Lists the Ontologies visible to the current user. Third-party applications using this endpoint via OAuth2 must request the following operation scope: api:ontologies-read. Response body. Success response. The list of Ontologies the user has access to. Examples.

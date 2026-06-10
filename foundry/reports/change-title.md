@@ -1,0 +1,7 @@
+---
+source_url: "https://www.palantir.com/docs/foundry/reports/change-title/"
+parquet_url: "/foundry/reports/change-title/"
+title: "Add or change the report title"
+fetched_at: "2026-05-12T19:34:35.788Z"
+---
+Add or change the report title. There are several ways of adding or changing the title of a Foundry Report. Via the Report. Switch to Editing mode. (You must have edit permissions on the report to do this.). Click the report title. Type a new report title. Click out of the title or use the Enter key to save your changes. Via the Application header. Switch to Editing mode. (You must have edit permissions on the report to do this.). Click the resource title in the application header at the top of the screen. Type a new report title. Click out of the title or use the Enter key to save your changes. Via Your files view. As with any resource in Palantir Foundry—whether a report or something else—you can change the title while viewing the resource in a Project: Right click on the report in your list of files. Click “Rename” in the context menu that appears. Type a new report title. Click out of the title or use the Enter key to save your changes. Errors & Validation. Some characters and formats are not permitted in report titles: A title cannot be empty. A title cannot be longer than 716 characters. A title cannot contain forward slashes (/). A title cannot contain line breaks. The application will typically display an error before saving if a particular title is not acceptable. Otherwise, you may see an error after saving.

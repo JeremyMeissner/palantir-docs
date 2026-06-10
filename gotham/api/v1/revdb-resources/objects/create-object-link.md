@@ -1,0 +1,7 @@
+---
+source_url: "https://www.palantir.com/docs/gotham/api/v1/revdb-resources/objects/create-object-link/"
+parquet_url: "/gotham/api/v1/revdb-resources/objects/create-object-link/"
+title: "Create object link"
+fetched_at: "2026-05-12T19:34:35.745Z"
+---
+Create object link. Warning. This endpoint is in preview and may be modified or removed at any time. To use this endpoint, add preview=true to the request query parameters. Create a link. Both sides of the link must exist. Invalid link type result in an InvalidOntologyTypes error. Path parameters. The primary key of the object from which the links originate (source object). The type of the link that exists between the object and the requested objects. Query parameters. Represents a boolean value that restricts an endpoint to preview mode when set to true. Request body. A request to create a link to a target object. Requires specifying the security for the link to create, which may be different from one or both sides of the objects being linked. The primary key/unique identifier of an object, useful for interacting with Gotham APIs to load and mutate objects. Security mutation details for a component of an object - property, media, link. Specifying security overrides the system's default security when creating and updating data. If portion markings are specified, permissions may be specified. If portion markings are not specified, permissions must be specified. This model may evolve over time for other security features. Response body. Success response indicating link was created successfully. Examples.

@@ -1,0 +1,7 @@
+---
+source_url: "https://www.palantir.com/docs/foundry/pb-functions-expression/convertDistanceV1/"
+parquet_url: "/foundry/pb-functions-expression/convertDistanceV1/"
+title: "Convert between distance units"
+fetched_at: "2026-05-12T19:34:36.661Z"
+---
+Convert between distance units. Supported in: Batch, Faster, Streaming. Expression categories: Numeric. Declared arguments. Amount of current unit: no description Expression<DefiniteNumeric> Current unit: The unit prior to conversion. Enum<Centimeter, Data mile, Decameter, Decimeter, Foot, Hectometer, Inch, Kilometer, Meter, Mile, and more ...> Target unit: The desired unit after conversion. Enum<Centimeter, Data mile, Decameter, Decimeter, Foot, Hectometer, Inch, Kilometer, Meter, Mile, and more ...> Output type: Double. Examples. Example 1: Base case. Argument values: Amount of current unit: kilometers. Current unit: kilometer. Target unit: meter. kilometersOutput 1. 1000.0. Example 2: Null case. Argument values: Amount of current unit: kilometers. Current unit: kilometer. Target unit: meter. kilometersOutput null. null.

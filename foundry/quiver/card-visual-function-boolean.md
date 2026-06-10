@@ -1,0 +1,7 @@
+---
+source_url: "https://www.palantir.com/docs/foundry/quiver/card-visual-function-boolean/"
+parquet_url: "/foundry/quiver/card-visual-function-boolean/"
+title: "Visual function boolean"
+fetched_at: "2026-05-12T19:34:37.843Z"
+---
+Visual function boolean. Uses a visual function to save repeatable logic that returns a boolean. Input type. Object set, single object, number, string, time, boolean. Output type. Boolean. Usage information. FunctionalityAvailability Standard Quiver card. Supported. Transform table transform. Unsupported.

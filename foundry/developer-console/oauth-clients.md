@@ -1,0 +1,7 @@
+---
+source_url: "https://www.palantir.com/docs/foundry/developer-console/oauth-clients/"
+parquet_url: "/foundry/developer-console/oauth-clients/"
+title: "Standalone OAuth clients [Legacy]"
+fetched_at: "2026-05-12T19:34:36.436Z"
+---
+Standalone OAuth clients [Legacy] Standalone OAuth clients are now legacy. Use an unrestricted custom application instead. Standalone OAuth clients are a legacy, lightweight alternative to custom applications. Consider replacing a standalone OAuth client with an unrestricted custom application, which provides new features like restrictions, metrics, and SDK generation. As of January 2026, users can no longer create standalone OAuth clients. Migration steps to convert standalone OAuth clients into unrestricted custom applications will be available in a future release. Manage a standalone OAuth client in Developer Console. Navigate to the OAuth clients list and select the client you want to manage. Note that you must have the Manage OAuth 2.0 clients permission in the OAuth client's owning organization to manage the OAuth client. You will now see the Overview page, where you can edit application details such as application name, description, and logo. You may also choose to delete the application if you expand the Danger zone. From here, you can navigate to the OAuth & Permissions page, where you can view and manage client details. You may also choose to share the application with other organizations, which will allow them to enable the application for their own users.

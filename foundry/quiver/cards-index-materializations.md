@@ -1,0 +1,7 @@
+---
+source_url: "https://www.palantir.com/docs/foundry/quiver/cards-index-materializations/"
+parquet_url: "/foundry/quiver/cards-index-materializations/"
+title: "Materializations cards"
+fetched_at: "2026-05-12T19:34:37.874Z"
+---
+Materializations cards. Back to: Index of cards. Cards in this section support the analysis of Ontology materializations. Materialization is a data type in Quiver that provides a way to transform, visualize and analyze Ontology data at scale, with the capacity to surpass the 50k row constraint on data joins and transformations present in transform tables. Specifically, Materializations cards allow you to: Perform joins (left/right/inner/full) on objects data. Derive new columns, filter, or aggregate objects data. Plot data using categorical charts. Convert to a transform table and use Vega plots. Use Materializations cards for large-scale analyses that take object sets as inputs, letting Quiver convert object sets seamlessly behind-the-scenes. From an object set, use any of the cards located under the Materializations next actions, or perform an explicit conversion with the Object set materialization card. To find out which backing dataset primitives are powering a Materializations card, simply hover over the datasource icon. The following cards are available: Expression. Filter materialization. Join materializations. Materialization SQL. Numeric aggregation (materialization). Object set materialization. Set math (materialization). Unique column values (materialization). Categorical plot from materialization.

@@ -1,0 +1,7 @@
+---
+source_url: "https://www.palantir.com/docs/foundry/api/v2/models-v2-resources/models/promote-version-model/"
+parquet_url: "/foundry/api/v2/models-v2-resources/models/promote-version-model/"
+title: "Promote Version Model"
+fetched_at: "2026-05-12T19:34:37.691Z"
+---
+Promote Version Model. Warning. This endpoint is in preview and may be modified or removed at any time. To use this endpoint, add preview=true to the request query parameters. Promotes an existing Model Version to the target Model. The promoted Model Version will be copied to the target Model as the latest version on the specified branch, but will have a new Model Version RID. Third-party applications using this endpoint via OAuth2 must request the following operation scope: api:models-write. Path parameters. The Resource Identifier (RID) of a Model. Query parameters. Enables the use of preview functionality. Request body. The Resource Identifier (RID) of a Model Version. The branch to promote the version to. Defaults to master on most enrollments. Response body. The Resource Identifier (RID) of a Model Version. The Model API is a specification that describes the inputs and outputs of a machine learning model. It is used to define the interface for the model, including the types of data that can be passed to it and the types of data that it will return. The time at which the resource was created. The source from which this model version was created. The Experiment linked to this Model Version, if one exists. Examples. Error responses.

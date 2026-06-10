@@ -1,0 +1,7 @@
+---
+source_url: "https://www.palantir.com/docs/foundry/hyperauto/supported-sources/"
+parquet_url: "/foundry/hyperauto/supported-sources/"
+title: "Supported sources for HyperAuto V2"
+fetched_at: "2026-05-12T19:34:37.000Z"
+---
+Supported sources for HyperAuto V2. This page describes the Data Connection source types supported by HyperAuto V2. SAP. Source connection. HyperAuto V2 supports data coming from a Foundry SAP source. Both SAP ECC and S/4HANA are supported, with or without a corresponding SLT Replication Server (streaming requires SLT). The following minimum requirements must be met for the source to be supported: SAP Managed Source (magritte-sap-source) Version: 1.25.0. Palantir Foundry Connector for SAP Version: SP26 (2.26.0). For more information on how to set up SAP with Foundry, review the Add-on for SAP installation guide. Folder-based data. HyperAuto V2 also works from a static cut of SAP data, without a direct connection. In that case, you will need to upload the following data dictionary tables as datasets: DD02L (SAP Tables). DD02T (SAP DD: SAP Table Texts). DD03L (Table Fields). DD04T (R-3 DD: Data element texts). DD05S (Foreign key fields). DD08L (R-3 DD: relationship definitions). All the subsequent tables to be processed with HyperAuto will need to be uploaded as Foundry datasets in a single folder. For more information on how HyperAuto works with static data, review the folder-based SAP pipeline documentation.

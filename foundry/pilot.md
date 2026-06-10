@@ -1,0 +1,46 @@
+---
+source_url: "https://www.palantir.com/docs/foundry/pilot/"
+title: "Documentation | Pilot > Overview"
+---
+# Pilot
+
+:::callout{theme="neutral" title="Beta"}
+Pilot is in the [beta](/docs/foundry/platform-overview/development-life-cycle/) phase of development and may not be available on your enrollment. Functionality may change during active development. To enable Pilot, contact your platform administrator to [modify application access](/docs/foundry/administration/configure-application-access/) in Control Panel.
+:::
+
+Pilot is an AI-powered application builder in Foundry that creates applications from natural language prompts. You can describe the application you want to build, and Pilot automatically generates the [ontology](/docs/foundry/ontology/overview/) entities, design specification, frontend code, and seed data. Applications built with Pilot use the [OSDK](/docs/foundry/ontology-sdk/overview/) and React, and are deployed through [Developer Console](/docs/foundry/developer-console/overview/) as production-grade hosted applications.
+
+## Key capabilities
+
+Pilot manages the full application lifecycle with specialized AI agents that can perform the following operations:
+
+* **Ontology generation:** Pilot analyzes your prompt and creates the object types, action types, link types, properties, and relationships that your application needs.
+* **Design specification:** A design agent produces the design specification covering color palette, typography, layout, and interaction patterns.
+* **Frontend generation:** An application building agent implements a React application using OSDK hooks, with a live preview inside the Pilot workspace.
+* **Seed data generation:** Pilot generates sample data in an isolated container, so AI agents never access real enterprise data during the build process.
+* **Guided deployment:** A step-by-step deployment panel walks you through ontology promotion, Developer Console configuration, CI checks, and release.
+* **Multiple AI models:** Choose from Claude, GPT, or Gemini model families depending on your enrollment configuration.
+* **Context attachments:** Provide existing ontology entities, documents, or images to guide how Pilot builds your application.
+
+## How Pilot works
+
+Pilot follows an end-to-end workflow from prompt to production.
+
+1. **Prompt-driven build:** Describe the application you want to build. Using your description, Pilot creates an isolated container and generates the necessary ontology, design, code, and seed data required to build your application.
+2. **Ontology alignment:** Pilot generates or reuses object types and actions. Those ontology entities are promoted to the main ontology through [Global Branching](/docs/foundry/global-branching/overview/) and proposals.
+3. **Developer Console configuration:** Pilot creates a Developer Console application tied to your project, requests a subdomain, and sets application restrictions to include the required ontology entities.
+4. **CI and deployment:** Pilot generates deployment files and CI configuration. CI checks run and must pass before you can tag and release a version.
+5. **Hosted production application:** The application is served at the registered subdomain. Users authorize through OAuth and can immediately use the application with real data.
+## Prerequisites
+
+Ensure that you meet the criteria below to use Pilot:
+
+* You are on a Foundry enrollment with Pilot enabled.
+* You have existing ontology entities or a project with ontology write permissions.
+* You have the `Editor` role or higher on the project, enabling deployment.
+
+## Next steps
+
+* **[Getting started](/docs/foundry/pilot/getting-started/):** Open Pilot, create your first application, and explore the workspace.
+* **[Build an application](/docs/foundry/pilot/build-an-application/):** Walk through the build lifecycle, from ontology generation to seed data.
+* **[Deploy an application](/docs/foundry/pilot/deploy-an-application/):** Promote ontology entities, configure Developer Console, run CI checks, and release to production.

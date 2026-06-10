@@ -1,0 +1,7 @@
+---
+source_url: "https://www.palantir.com/docs/foundry/building-pipelines/create-a-connected-flow/"
+parquet_url: "/foundry/building-pipelines/create-a-connected-flow/"
+title: "Create a connected flow"
+fetched_at: "2026-05-12T19:34:36.806Z"
+---
+Create a connected flow. In the Logic Flows App, you can: Create new connected flows (Top right corner). View existing connected flows, grouped by automation. To open the app, go to /workspace/logic-flows. To create a connected flow in the Compass Files Lister, follow these steps: When creating a new connected flow, you will be presented with a dialog that allows you to set a name, project & required parameters and configuration. These are validated as it is being typed in or manually by clicking Validate. For Compass Files lister automation, you are required to set input folder and output repository. Logic flows are project-scoped, meaning you must specify the project where the connected flow resource will be created. Connected flows should be saved in the same project as any parameters used to connect the flow. After saving the connected flow, it will appear in the list of connected flows. To trigger the job, click Build in-line with the specific connected flow. A message will point you to the Builds application view where you can monitor the status of the job. To check the results of your job, verify the pull request in the target repository view. By heading back to Logic Flows application, you can see your connected flow, its parameters and configuration, and create a schedule from there.

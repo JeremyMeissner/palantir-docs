@@ -1,0 +1,7 @@
+---
+source_url: "https://www.palantir.com/docs/foundry/contour/boards-verify-results/"
+parquet_url: "/foundry/contour/boards-verify-results/"
+title: "Verify results"
+fetched_at: "2026-05-12T19:34:35.978Z"
+---
+Verify results. In Contour, you can use various boards to check the dataset produced by your analysis. Some of the simplest ways to check results are: Using the Table board. Using the Table panel. Using the Histogram board. Using the Table board. By inserting a Table board after an analysis, you can quickly check to see if any new columns are correct or if the logic of a previous board resulted in the intended outcome. Using the Table panel. In addition to the path view, which lists the boards you’ve applied to your dataset, Contour also offers a table panel. Using the table panel enables you to see the underlying data in a table as you apply each board. The table panel makes the table (not boards) the focus, so you can see how the data changes as you add each board. This can be especially helpful when writing expressions. You can switch to the table panel by clicking Show table in the upper right. Click the button again or click Hide table to return to path view. Using the Histogram board. Inserting a Histogram board after an analysis provides a quick overview of the different data categories, which can be used for general assessment of the data or to check that the filtered categories are correct.

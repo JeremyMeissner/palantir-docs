@@ -1,0 +1,7 @@
+---
+source_url: "https://www.palantir.com/docs/foundry/data-integration/source-type-overview/"
+parquet_url: "/foundry/data-integration/source-type-overview/"
+title: "Connectors"
+fetched_at: "2026-05-12T19:34:37.311Z"
+---
+Connectors. The Data Connection application is intended to provide connectivity between Foundry and your systems. This page provides an overview of the available connectors. Filesystems and blob stores. Including: Amazon S3. OneLake and Azure Blob Filesystem (ABFS). Directory (Agent-level filesystem). FTP/FTPS. Google Cloud Storage. HDFS. Server Message Block (SMB). SFTP. SharePoint Online. JDBC sources. Databases. Including: Amazon Athena. Hive. IBM Db2. Informix. MariaDB. Microsoft SQL Server. MySQL. Oracle Database. PostgreSQL. SQLite. Sybase. Vertica. Data warehouses. Including: AWS Redshift. Azure Synapse. BigQuery. Databricks. Netezza. Snowflake. Teradata. ERP and CRM. Including: SAP. Salesforce. Oracle NetSuite. HubSpot. Streaming sources. Including: Apache Kafka. ActiveMQ. Amazon Kinesis. Amazon SNS. Amazon SQS. Google Pub/Sub. MQTT. RabbitMQ. Solace. NoSQL stores. Including: Amazon DynamoDB. Apache HBase. Azure Cosmos DB. Cassandra. Cockroach DB. CouchDB. Elasticsearch. InfluxDB. MarkLogic. MongoDB. Neo4j. OrientDB. Redis. REST APIs. Other source types. IOT / IIOT. Including: Amazon IoT Core. Azure Event Hub. Google IoT Core. OPC-UA. OSI PI. Geospatial systems. Including: ESRI / ArcGIS. PostGIS. Oracle Spatial DBs. WFS. Productivity tools. Including: Artifactory. Asana. GitHub. JIRA. PagerDuty. ServiceNOW. Slack.

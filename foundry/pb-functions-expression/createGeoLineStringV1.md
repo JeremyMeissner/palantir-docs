@@ -1,0 +1,7 @@
+---
+source_url: "https://www.palantir.com/docs/foundry/pb-functions-expression/createGeoLineStringV1/"
+parquet_url: "/foundry/pb-functions-expression/createGeoLineStringV1/"
+title: "Create linestring geometry"
+fetched_at: "2026-05-12T19:34:36.586Z"
+---
+Create linestring geometry. Supported in: Batch, Streaming. Creates a GeoJSON linestring geometry from the given points. Expression categories: Geospatial. Declared arguments. Points: The points that make up the linestring. Expression<Array<T>> Type variable bounds: T accepts Struct<longitude, latitude> Output type: Geometry. Examples. Example 1: Base case. Argument values: Points: points. pointsOutput [ { latitude: 10.0, longitude: 0.0, }, { latitude: 10.0, longitude: 10.0, } ] {"type":"LineString","coordinates":[[0.0,10.0],[10.0,10.0]]} [ { latitude: 10.0, longitude: 10.0, }, { latitude: 20.0,<... {"type":"LineString","coordinates":[[10.0,10.0],[20.0,20.0],[30.0,30.0]]} [ { latitude: 0.0, longitude: 179.0, }, { latitude: 0.0, longitude: 181.0, } ] {"type":"MultiLineString","coordinates":[[[179.0,0.0],[180.0,0.0]],[[-180.0,0.0],[-179.0,0.0]]]} [ { latitude: 0.0, longitude: -179.0, }, { latitude: 0.0, longitude: -181.0, } ] {"type":"MultiLineString","coordinates":[[[180.0,0.0],[179.0,0.0]],[[-179.0,0.0],[-180.0,0.0]]]} Example 2: Null case. Argument values: Points: points. pointsOutput null. null. [ { latitude: 0.0, longitude: 0.0, }, null ] null. Example 3: Edge case. Argument values: Points: points. pointsOutput [ ] null. [ { latitude: 0.0, longitude: 0.0, } ] null.

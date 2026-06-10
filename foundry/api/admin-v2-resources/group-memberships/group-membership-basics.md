@@ -1,0 +1,5 @@
+---
+source_url: "https://www.palantir.com/docs/foundry/api/admin-v2-resources/group-memberships/group-membership-basics/"
+title: "Group Membership basics \u2022 API Reference"
+---
+A GroupMembership represents details about a User's membership in a group.

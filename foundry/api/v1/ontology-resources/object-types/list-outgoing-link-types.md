@@ -1,0 +1,7 @@
+---
+source_url: "https://www.palantir.com/docs/foundry/api/v1/ontology-resources/object-types/list-outgoing-link-types/"
+parquet_url: "/foundry/api/v1/ontology-resources/object-types/list-outgoing-link-types/"
+title: "List Outgoing Link Types"
+fetched_at: "2026-05-12T19:34:37.513Z"
+---
+List Outgoing Link Types. List the outgoing links for an object type. Third-party applications using this endpoint via OAuth2 must request the following operation scope: api:ontologies-read. Path parameters. The unique Resource Identifier (RID) of the Ontology that contains the object type. To look up your Ontology RID, please use the List ontologies endpoint or check the Ontology Manager application. The API name of the object type. To find the API name, use the List object types endpoint or check the Ontology Manager application. Query parameters. The desired size of the page to be returned. The page token indicates where to start paging. This should be omitted from the first page's request. To fetch the next page, clients should take the value from the nextPageToken field of the previous response and use it to populate the pageToken field of the next request. Response body. Success response. The page token indicates where to start paging. This should be omitted from the first page's request. To fetch the next page, clients should take the value from the nextPageToken field of the previous response and use it to populate the pageToken field of the next request. The list of link type sides in the current page. Examples.

@@ -1,0 +1,61 @@
+---
+source_url: "https://www.palantir.com/docs/foundry/api/connectivity-v2-resources/connections/update-secrets-for-connection/"
+title: "Update Secrets For Connection \u2022 API Reference"
+---
+# Update Secrets For Connection
+
+## Endpoint
+
+Updates the secrets on the connection to the specified secret values.
+Secrets that are currently configured on the connection but are omitted in the request will remain unchanged.
+
+Secrets are transmitted over the network encrypted using TLS. Once the secrets reach Foundry's servers, 
+they will be temporarily decrypted and remain in plaintext in memory to be processed as needed. 
+They will stay in plaintext in memory until the garbage collection process cleans up the memory. 
+The secrets are always stored encrypted on our servers.
+
+By using this endpoint, you acknowledge and accept any potential risks associated with the temporary 
+in-memory handling of secrets. If you do not want your secrets to be temporarily decrypted, you should 
+use the Foundry UI instead.
+
+Third-party applications using this endpoint via OAuth2 must request the following operation scope: `api:connectivity-connection-write`.
+
+**operationId:** v2.updateSecretsForConnection
+
+**path:** /api/v2/connectivity/connections/{connectionRid}/updateSecrets
+
+### Operation Type
+
+### Scopes
+
+| name |
+| --- |
+| api:connectivity-connection-write |
+
+### Path Parameters
+
+| name | type | required | description |
+| --- | --- | --- | --- |
+| connectionRid | stringType | True | The Resource Identifier (RID) of a Connection (also known as a source). |
+
+### Request
+
+#### Body
+
+**name:** UpdateSecretsForConnectionRequest
+
+##### Children
+
+| name | type | required | description |
+| --- | --- | --- | --- |
+| secrets | mapType | False | The secrets to be updated. The specified secret names must already be configured on the connection. |
+
+**example:** {"secrets":{"Password":"MySecretPassword"}}
+
+### Error Responses
+
+| name | description |
+| --- | --- |
+| SecretNamesDoNotExist | The secret names provided do not exist on the connection. |
+| UpdateSecretsForConnectionPermissionDenied | Could not updateSecrets the Connection. |
+| ConnectionNotFound | The given Connection could not be found. |

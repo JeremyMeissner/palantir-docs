@@ -1,0 +1,7 @@
+---
+source_url: "https://www.palantir.com/docs/foundry/api/v2/filesystem-v2-resources/project-resource-references/list-project-resource-references/"
+parquet_url: "/foundry/api/v2/filesystem-v2-resources/project-resource-references/list-project-resource-references/"
+title: "List Project Resource References"
+fetched_at: "2026-05-12T19:34:37.668Z"
+---
+List Project Resource References. Warning. This endpoint is in preview and may be modified or removed at any time. To use this endpoint, add preview=true to the request query parameters. List all references in the given project. Third-party applications using this endpoint via OAuth2 must request the following operation scope: api:filesystem-read. Path parameters. The unique resource identifier (RID) of a Project. Query parameters. Filter references by type. If not provided, all references are returned. Enum values: EXTERNAL, FILESYSTEM. The page size to use for the endpoint. The page token indicates where to start paging. This should be omitted from the first page's request. To fetch the next page, clients should take the value from the nextPageToken field of the previous response and use it to populate the pageToken field of the next request. Enables the use of preview functionality. Response body. The page token indicates where to start paging. This should be omitted from the first page's request. To fetch the next page, clients should take the value from the nextPageToken field of the previous response and use it to populate the pageToken field of the next request. Examples. Error responses.

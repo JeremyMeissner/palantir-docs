@@ -1,0 +1,5 @@
+---
+source_url: "https://www.palantir.com/docs/foundry/api/data-health-v2-resources/checks/"
+title: "Check basics \u2022 API Reference"
+---
+A Foundry health check. For more information, refer to the [Data Health](/docs/foundry/data-health/overview/) user documentation.

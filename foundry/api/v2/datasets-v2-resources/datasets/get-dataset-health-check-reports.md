@@ -1,0 +1,7 @@
+---
+source_url: "https://www.palantir.com/docs/foundry/api/v2/datasets-v2-resources/datasets/get-dataset-health-check-reports/"
+parquet_url: "/foundry/api/v2/datasets-v2-resources/datasets/get-dataset-health-check-reports/"
+title: "Get Dataset Health Check Reports"
+fetched_at: "2026-05-12T19:34:37.558Z"
+---
+Get Dataset Health Check Reports. Warning. This endpoint is in preview and may be modified or removed at any time. To use this endpoint, add preview=true to the request query parameters. Get the most recent Data Health Check report for each check configured on the given Dataset. Returns one report per check, representing the current health status of the dataset. To get the list of checks configured on a Dataset, use Get Dataset Health Checks. For the full report history of a specific check, use Get Latest Check Reports. Third-party applications using this endpoint via OAuth2 must request the following operation scopes: api:data-health-read api:datasets-read. Path parameters. The Resource Identifier (RID) of a Dataset. Query parameters. The name of the Branch. If none is provided, the default Branch name - master for most enrollments - will be used. Enables the use of preview functionality. Response body. A map from Check RID to the most recent report for that check. If a check is configured but has not yet produced a report, the value will be absent. Examples. Error responses.

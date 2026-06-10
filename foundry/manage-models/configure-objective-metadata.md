@@ -1,0 +1,7 @@
+---
+source_url: "https://www.palantir.com/docs/foundry/manage-models/configure-objective-metadata/"
+parquet_url: "/foundry/manage-models/configure-objective-metadata/"
+title: "Configure objective metadata"
+fetched_at: "2026-05-12T19:34:35.819Z"
+---
+Configure objective metadata. When a model is submitted to a modeling objective, certain metadata about that model and version is collected by default. In addition, you can define additional context-specific metadata to attach to each submitted model. Different teams have different mandates or required information that they wish to track. For example, you may wish to monitor compliance codes, model vendor IDs, or ticket numbers in a task tracker such as Jira. Custom metadata enables you to track any information you wish to capture associated with a model. The Display metadata tab on the Settings page provides the option for changing the display options for the default metadata collected by each objective. However, all metadata in that tab, selected or unselected, will be shown in the Model details section for each model submission. The Custom model metadata tab provides an interface for configuring additional custom metadata fields. Multiple metadata types are supported. There is a JSON editor option to easily copy/paste metadata between objectives. After adding custom metadata to an objective, when someone submits a model, the custom metadata fields will be available for submitters to enter.

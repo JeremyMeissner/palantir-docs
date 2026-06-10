@@ -1,0 +1,7 @@
+---
+source_url: "https://www.palantir.com/docs/foundry/chatbot-studio/marketplace/"
+parquet_url: "/foundry/chatbot-studio/marketplace/"
+title: "Distribute AIP Chatbots using Marketplace"
+fetched_at: "2026-05-12T19:34:37.830Z"
+---
+Distribute AIP Chatbots using Marketplace. Use Foundry DevOps to include your AIP Chatbots in Marketplace products for other users to install and reuse. Learn how to create your first product. Supported features. All AIP Chatbots features are supported by Marketplace products, with the exception of: Assist agents. Adding AIP Chatbots to Marketplace products. To add an AIP Chatbot to a product, first create a product. In the Add resources step, search for and select your AIP Chatbot from the Add files option. Alternatively, if you have a Workshop application that embeds an AIP Chatbot via the AIP Chatbot widget, you can add the Workshop module to the product and the AIP Chatbot will be included automatically. AIP Chatbots with document context. When packaging an AIP Chatbot that is configured to use document context retrieval, the media set containing the documents will automatically be included in the product. This ensures that the AIP Chatbot has access to the necessary documents when installed. Media set content. The entire media set, including any items not used by the AIP Chatbot, will be packaged in the product. If you want to limit the content to only the documents used by the AIP Chatbot, you should create a new media set containing only the necessary documents and reconfigure the AIP Chatbot to use it.

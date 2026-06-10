@@ -1,0 +1,17 @@
+---
+source_url: "https://www.palantir.com/docs/defense-osdk/api/intelligence/"
+title: "Intelligence \u2022 API Reference"
+---
+The U.S. military and its allies and partners rely on *Intelligence* to comprehend the relevant enemy, terrain, and civil considerations which influence a commander's cross-functional decision-making at echelon. When integrated, the component activities of *Intelligence* - such as collection, synchronization, analysis, and distribution - mitigate risks across the other warfighting functions and provide an exhaustive understanding of the operational environment.
+
+- **Communications Intelligence:** Defined by the interception, collection, and analysis of voice, text, or data transmissions exchanged between adversary entities, Communications Intelligence (COMINT) provides insight into enemy intentions, plans, and capabilities. COMINT enables the monitoring of command and control communications, facilitates the identification of key personnel and organizational structures, and supports timely decision-making by revealing adversary activities that might not be discernible through other intelligence disciplines.
+- **Electronic Intelligence:** Defined by the interception, collection, and technical analysis of non-communications electromagnetic emissions, Electronic Intelligence (ELINT) provides detailed information on adversary radar systems, weapons guidance, and other electronic devices. ELINT enables the identification, classification, and geolocation of electronic emitters, supporting threat assessment, electronic order of battle development, and the planning of electronic warfare operations.
+- **Human Intelligence:** Defined by the collection of information through interpersonal contact or other human sources, such as interrogation or integration with a local population, Human Intelligence (HUMINT) activities offer direct insight into an operating environment's conditions, the sentiments of its populace, and the intentions of a local or adjacent adversary.
+- **Imagery Intelligence:** Defined by the collection, analysis, and interpretation of ground, aerial, or satellite photography to identify dynamic or static elements of an adversary, the detailed visual information provided by Imagery Intelligence (IMINT) helps identify potential targets while monitoring environmental conditions.
+- **Signals Intelligence:** Defined by the interception, collection, and analysis of adversary-produced electronic signals to garner insight into their communications or activities, access to consumable Signals Intelligence (SIGINT) helps ensure a commander's understanding of enemy intent not otherwise gathered through other intelligence elements.
+
+## Intelligence interfaces in the Defense OSDK
+
+Modeled as a distinct domain within the Defense Ontology, ontology types within *Intelligence* represent intelligence data and metadata, sources and their collection activities, and the relationships between their generated analytical products as defined by its component [interfaces](/docs/foundry/interfaces/interface-overview). [Interface link type constraints](/docs/foundry/interfaces/interface-link-types-overview) define the object-to-object relationship across object types that implement an Intelligence interface.
+
+[Learn more about how to develop with Intelligence interfaces as your API layer](/docs/defense-osdk/api/intelligence/interfaceTypes/com-palantir-ontology-defense-types-intelligence).

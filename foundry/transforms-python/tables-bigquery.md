@@ -1,0 +1,7 @@
+---
+source_url: "https://www.palantir.com/docs/foundry/transforms-python/tables-bigquery/"
+parquet_url: "/foundry/transforms-python/tables-bigquery/"
+title: "BigQuery compute pushdown"
+fetched_at: "2026-05-12T19:34:35.997Z"
+---
+BigQuery compute pushdown. To use compute pushdown with BigQuery, create a Python repository and install the most recent version of the transforms-tables library. An Ibis ↗ connection to BigQuery will be established based on the connection details of the BigQuery tables configured as inputs and/or outputs. Data can be transformed using the Ibis DataFrame API. For complete guidance on the Ibis API, consult the Ibis documentation ↗. Note the use of Foundry lightweight API syntax rather than Foundry Spark syntax. An example of a BigQuery-backed Ibis transform is shown below: 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 from transforms.api import transform from transforms.tables import ( IbisInput, IbisOutput, TableInput, TableOutput, BigQueryTable ) @transform.bigquery.using( source_table=TableInput("ri.tables.main.table.1234"), output_table=TableOutput( "ri.tables.main.table.5678", "ri.magritte..source.1234", BigQueryTable("PROJECT", "DATASET", "TABLE"), ), ) def compute(source_table: IbisInput, output_table: IbisOutput): # Data transformation with Ibis table = source_table.table() output_table.write(table). Incremental computation using the @incremental decorator is not currently supported when using compute pushdown to BigQuery.

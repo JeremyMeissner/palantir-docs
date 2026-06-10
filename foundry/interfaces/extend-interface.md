@@ -1,0 +1,7 @@
+---
+source_url: "https://www.palantir.com/docs/foundry/interfaces/extend-interface/"
+parquet_url: "/foundry/interfaces/extend-interface/"
+title: "Extend an interface"
+fetched_at: "2026-05-12T19:34:36.384Z"
+---
+Extend an interface. Extending an interface allows you to compose interfaces together, creating a new, more specific interface. This is particularly useful for constructing abstract object interfaces that implement multiple capability interfaces. An interface inherits the shared properties and links of the interface it extends. An interface can extend any number of other interfaces. To extend an interface, follow the steps below. From Ontology Manager, select the interface you wish to extend to open the interface overview page. From the overview page, select Extension from the left side panel. From the interface extensions page, select Add extension. From the dropdown menu, select the interface to extend from your current interface. In the confirmation dialog, review the shared properties and links that will be added to the interface extension and select Confirm. Select Save in the upper right corner to add the interface extension to the Ontology. You can also remove an extension to decouple one interface from another. This action will remove all inherited shared properties from the interface, remove all inherited link type constraints, and disassociate the extending interface from the base interface.

@@ -1,0 +1,47 @@
+---
+source_url: "https://www.palantir.com/docs/gotham/api/general/overview/authentication/"
+title: "Authentication \u2022 API Reference"
+---
+All APIs use the OAuth 2.0 (OAuth2) protocol for authentication and authorization.
+To authenticate against the API, you must include an API token, generally referred to as a *[bearer token](https://datatracker.ietf.org/doc/html/rfc6750)*, in each API call.
+A *bearer token* is a string that is used to give the owner of the token access to a resource.
+The token should be passed as an "Authorization" header using the "Bearer" authentication scheme.
+
+- [Authentication during development](#authentication-during-development)
+- [Authentication for production apps](#authentication-for-production-apps)
+
+## Authentication during development
+
+During development and testing, you can use a test API token associated with your user account.
+
+### Create a test API token
+
+To create a test API token, follow the steps below:
+
+1. Navigate to **Account** page - located at the path `https://<hostname>/multipass/app/account`.  See [instructions for getting your hostname](/docs/gotham/api/general/overview/getting-started/#find-your-hostname) to find the hostname for your environment.
+2. Click **Settings**, click **Tokens**, and then select **Create** token.
+
+All user-generated tokens should be kept secure and revoked when they are no longer needed.
+
+To revoke tokens manually, return to your tokens list and click **Revoke**. Tokens are automatically revoked upon expiry.
+
+:::callout{theme=warning title=Warning}
+These tokens are associated with your personal Gotham user account and **must not be used in production applications or committed to shared or public code repositories**. We recommend you store test API tokens as environment variables during development.
+:::
+
+### Authenticate using a test API token
+
+To include a token in an API call, pass the token in as an "Authorization" header using the "Bearer" authentication scheme.
+For example:
+
+```bash
+curl -H "Authorization: Bearer <your token>" "https://<hostname>/api/gotham/v1/objects/<objectPrimaryKey>"
+```
+
+## Authentication for production apps
+
+We strongly recommend all production applications use OAuth2 for authentication.
+
+Gotham offers Authentication Code grants to allow a third-party application to act on behalf of its users, as well as Client Credentials grants that allow an application to act as a service user.
+
+For information on how to integrate your third-party application with Palantir Gotham, consult our documentation on [registering and managing third-party applications in the platform](/docs/gotham/platform-security-third-party/third-party-apps-overview).

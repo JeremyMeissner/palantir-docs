@@ -1,0 +1,7 @@
+---
+source_url: "https://www.palantir.com/docs/foundry/pb-functions-expression/timestampDiffV1/"
+parquet_url: "/foundry/pb-functions-expression/timestampDiffV1/"
+title: "Timestamp difference"
+fetched_at: "2026-05-12T19:34:36.778Z"
+---
+Timestamp difference. Supported in: Batch, Faster, Streaming. Returns the difference between two timestamps in the given time unit. Expression categories: Datetime. Declared arguments. End: The end date or time to subtract from. Expression<Date | Timestamp> Start: The start date or time to be subtracted. Expression<Date | Timestamp> Unit: Time unit. Enum<Days, Hours, Milliseconds, Minutes, Months, Quarters, Seconds, Weeks, Years> Output type: Long. Examples. Example 1: Base case. Argument values: End: 2022-10-01T10:00:00Z. Start: 2022-10-01T09:00:00Z. Unit: HOURS. Output: 1. Example 2: Null case. Argument values: End: End. Start: Start. Unit: HOURS. StartEndOutput null. 2020-01-01. null. 2020-01-01. null. null. null. null. null.

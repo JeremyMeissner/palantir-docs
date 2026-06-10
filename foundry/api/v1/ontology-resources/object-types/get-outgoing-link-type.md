@@ -1,0 +1,7 @@
+---
+source_url: "https://www.palantir.com/docs/foundry/api/v1/ontology-resources/object-types/get-outgoing-link-type/"
+parquet_url: "/foundry/api/v1/ontology-resources/object-types/get-outgoing-link-type/"
+title: "Get Outgoing Link Type"
+fetched_at: "2026-05-12T19:34:37.514Z"
+---
+Get Outgoing Link Type. Get an outgoing link for an object type. Third-party applications using this endpoint via OAuth2 must request the following operation scope: api:ontologies-read. Path parameters. The unique Resource Identifier (RID) of the Ontology that contains the object type. To look up your Ontology RID, please use the List ontologies endpoint or check the Ontology Manager application. The API name of the object type. To find the API name, use the List object types endpoint or check the Ontology Manager application. The API name of the outgoing link. To find the API name for your link type, check the Ontology Manager. Response body. Success response. The name of the link type in the API. To find the API name for your Link Type, check the Ontology Manager application. The display name of the entity. The release status of the entity. Enum values: ACTIVE, ENDORSED, EXPERIMENTAL, DEPRECATED. The name of the object type in the API in camelCase format. To find the API name for your Object Type, use the List object types endpoint or check the Ontology Manager. Enum values: ONE, MANY. The name of the property in the API. To find the API name for your property, use the Get object type endpoint or check the Ontology Manager. Examples.

@@ -1,0 +1,7 @@
+---
+source_url: "https://www.palantir.com/docs/foundry/quiver/card-expression/"
+parquet_url: "/foundry/quiver/card-expression/"
+title: "Expression"
+fetched_at: "2026-05-12T19:34:37.857Z"
+---
+Expression. Use the expression language to derive new columns or perform complex filtering. Advanced features available only in this card, such as window functions can be used to unlock new types of analysis in Quiver. To use, select either an object set, materialization card, or another Expression card. Select Additional configuration... to access Add new column, Replace column, Filter, and Aggregate options. Where AIP is enabled, you can select the AIP Configure option in the Expression card to create expressions using natural language. Some sample prompts you can use include: “Compute a new column called 'total user score' by multiplying the two score columns” “Compute the 'total user score' defined by multiplying the two score columns for each organic category” “Compute the average sustainability score for each organic category” “Update the values in the Organic column to camel case” “Concatenate the two product name columns into one of them” “Compute the total revenue per product for each store, taking into account price and quantity sold” AIP provides a suggestion which you can Apply. Input type. Object set, Materialization. Output type. Materialization. Usage information. FunctionalityAvailability Standard Quiver card. Supported. Transform table transform. Unsupported.

@@ -1,0 +1,7 @@
+---
+source_url: "https://www.palantir.com/docs/foundry/api/v2/media-sets-v2-resources/media-sets/get-media-item-metadata/"
+parquet_url: "/foundry/api/v2/media-sets-v2-resources/media-sets/get-media-item-metadata/"
+title: "Get Media Item Metadata"
+fetched_at: "2026-05-12T19:34:37.769Z"
+---
+Get Media Item Metadata. Warning. This endpoint is in preview and may be modified or removed at any time. To use this endpoint, add preview=true to the request query parameters. Gets detailed metadata about the media item, including type-specific information such as dimensions for images, duration for audio/video, page count for documents, etc. Third-party applications using this endpoint via OAuth2 must request the following operation scope: api:mediasets-read. Path parameters. The RID of the media set. The RID of the media item. Query parameters. A boolean flag that, when set to true, enables the use of beta features in preview mode. Response body. Detailed metadata about a media item, including type-specific information such as dimensions for images, duration for audio/video, page count for documents, etc. Metadata for document media items. Metadata for imagery (image) media items. Metadata for spreadsheet media items. Metadata for untyped media items (media items without a recognized type). Metadata for audio media items. Metadata for 3D model media items. Metadata for video media items. Metadata for DICOM (Digital Imaging and Communications in Medicine) media items. Metadata for email media items. Examples.

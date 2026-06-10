@@ -1,0 +1,45 @@
+---
+source_url: "https://www.palantir.com/docs/foundry/insight/"
+title: "Documentation | Insight > Overview"
+---
+# Insight
+
+Insight is a point-and-click application for exploring and analyzing [Ontology](/docs/foundry/ontology/overview/) data. Build step-by-step analysis paths to filter objects, traverse object links, aggregate results, and create visualizations. Insight allows you to work with existing or create new object sets that can be saved, shared, and used across the platform.
+## Key features
+
+* [**Analysis paths:**](/docs/foundry/insight/analysis-panel/) Build multi-step analyses by chaining filters, links, and transforms on Ontology data.
+* [**Object type links:**](/docs/foundry/insight/link-card/) Follow links between object types to filter on or pivot to connected data across the Ontology.
+* [**Aggregations:**](/docs/foundry/insight/transform-card/#group-by) Group objects and compute metrics with `Group By` operations.
+* [**Visualizations:**](/docs/foundry/insight/charts-insight/) Visualize properties as distributions, metrics, or histograms.
+* [**Maps:**](/docs/foundry/insight/map-insight/) Interact with geographic properties such as `GeoPolygon` or `GeoShape` types. Filters applied in the map are tracked in the analysis path.
+* [**Set operations:**](/docs/foundry/insight/transform-card/) Combine object sets or results from multiple analysis paths using union, intersection, and subtraction operations.
+* [**SQL queries:**](/docs/foundry/insight/transform-card/#sql-sandbox-and-filter-cards) Write SQL queries for advanced analysis and preview resulting data.
+* [**Data writeback:**](/docs/foundry/insight/table-insight/#data-operations) Create, update, and delete objects directly from your analysis using Foundry actions.
+* [**Sharing:**](/docs/foundry/insight/save-and-share/) Share Insight workbooks and resulting object sets with other users backed by Compass permissions.
+
+## When to use Insight
+
+We recommend using Insight when:
+
+* **Your data is modeled in the Ontology:** Insight operates on object types and their relationships, making it ideal when your data is already integrated as Ontology objects.
+* **You need to perform analysis without code:** The visual analysis path makes it easy to build complex queries step by step, supporting both simple and complex drill-down workflows.
+* **You want to explore relationships between objects:** The **Link** step lets you follow links to discover connected objects across the Ontology.
+* **You want to write data back to the Ontology:** Insight supports creating, updating, and deleting objects from your analysis results.
+
+## Insight vs. Object Explorer
+
+Object Explorer is a core application on Foundry, providing a home page for the Ontology. It serves as a place to discover and search across the Ontology. Object Explorer also provides an Ontology analysis tool, which allows for analyzing object types. Insight expands on the analysis features of Object Explorer, modernizing the interface and adding the latest features from the platform.
+
+Insight is best if you:
+
+* Want to inform analysis on Ontology data you know about
+* Are an analyst or investigator and need an intuitive interface and tools to support your analytical workflow
+* Want a Contour analysis experience on the Ontology
+
+Object Explorer is best if you:
+
+* Do not have much knowledge about the Ontology and need to learn about available data
+* Need to search for an object or a keyword across the entire Ontology
+* Want to view an individual object
+
+[Learn more about other analysis tools available on Foundry.](/docs/foundry/analytics/types-of-analysis/)

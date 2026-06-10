@@ -1,0 +1,7 @@
+---
+source_url: "https://www.palantir.com/docs/gotham/api/v1/inbox-resources/messages/inbox-send-messages/"
+parquet_url: "/gotham/api/v1/inbox-resources/messages/inbox-send-messages/"
+title: "Send Inbox Messages"
+fetched_at: "2026-05-12T19:34:35.756Z"
+---
+Send Inbox Messages. Warning. This endpoint is in preview and may be modified or removed at any time. To use this endpoint, add preview=true to the request query parameters. Send messages in Global Inbox. Validation failure for any message will cause the entire request to throw before any messages are sent. The response reports all messages which were successfully sent, and any messages which failed to be sent due to a conflict with an existing message. Callers must be added to the internal "External Inbox Alert Producers" group in Gotham Security (multipass). Note that the recipient realm must be specified if the caller's realm is not identical. For example, to send to the "Everyone" group in the "palantir-internal-realm" realm, the caller must either specify the realm or already be in "palantir-internal-realm". Query parameters. Represents a boolean value that restricts an endpoint to preview mode when set to true. Request body. Response body. Success response. The list of messages which were sent successfully. Messages are returned in the order in which they were sent in the request. The list of messages which failed to be sent in Inbox due to conflicts with existing messages. Examples.

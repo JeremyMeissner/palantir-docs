@@ -1,0 +1,7 @@
+---
+source_url: "https://www.palantir.com/docs/foundry/foundryts/functions-time-extent/"
+parquet_url: "/foundry/foundryts/functions-time-extent/"
+title: "foundryts.functions.time_extent"
+fetched_at: "2026-05-12T19:34:36.039Z"
+---
+foundryts.functions.time_extent. foundryts.functions.time_extent(). Returns a function that extracts the time extent (earliest and latest timestamps) of a single time series. The returned function computes the time extent by identifying the range from the first to the last timestamp in the given time series. Returns: A function that accepts a single time series and returns its time extent. The dataframe contains a single row with the time extent. Return type: (FunctionNode) -> SummarizerNode. Dataframe schema. Column nameTypeDescription extent.earliest_timestamp. pandas.Timestamp. Timestamp of the first point in the series. extent.latest_timestamp. pandas.Timestamp. Timestamp of the last point in the series. Examples. 1 2 3 4 5 6 7 8 9 10 11 12 >>> series = F.points( ... (1, 0.0), ... (101, 10.2), ... (200, 11.3), ... (123450, 11.8), ... ) >>> series.to_pandas() timestamp value 0 1970-01-01 00:00:00.000000001 0.0 1 1970-01-01 00:00:00.000000101 10.2 2 1970-01-01 00:00:00.000000200 11.3 3 1970-01-01 00:00:00.000123450 11.8. 1 2 3 4 >>> time_ext = F.time_extent()(series) >>> time_ext.to_pandas() extent.earliest_timestamp extent.latest_timestamp 0 1970-01-01 00:00:00.000000001 1970-01-01 00:00:00.000123450.

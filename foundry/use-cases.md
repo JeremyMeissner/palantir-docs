@@ -1,0 +1,87 @@
+---
+source_url: "https://www.palantir.com/docs/foundry/use-cases/"
+title: "Documentation | Use Cases [Sunset] > Overview"
+---
+# Use Cases \[Sunset]
+
+:::callout{theme="warning" title="Sunset"}
+Use Cases is in the [sunset](/docs/foundry/platform-overview/development-life-cycle/) phase of development and will be deprecated at a future date. Full support remains available. We recommend using [Portfolios](/docs/foundry/security/portfolios/) moving forward for organizing Projects.
+:::
+
+## What is a use case?
+
+The Use Cases application allows builders to organize their work within a single operational interface. By combining the filesystem view with an Ontology management view, developers can access a curated view focused on the work for which they are responsible.
+
+The Use Cases application can use any project as its backing project, but works best when backed by a workflow Project as part of the [recommended pipeline Project structure](/docs/foundry/building-pipelines/recommended-project-structure/#pipeline-stages). The workflow projects are used to store applications such as those from Workshop and Quiver which are based on Ontology resources.
+
+### Use case overview page
+## Features
+
+The Use Cases application’s key features allow users to:
+
+* **View all use cases** in your Organization and navigate between them.
+* **Create new use case** based on a new Project or an existing Project.
+* **Create new applications** in your use case directly within the interface.
+* **View all applications** in your use case in a single view.
+* **View Ontology resources** added to the use case or used by any application in the use case.
+* **Navigate quickly** between the use case and its connected applications.
+
+## Users
+
+The Use Cases application is ideal for workflow builders working with the Foundry Ontology to create real-world, operational applications. It is particularly useful for builders moving between different Projects to access resources necessary for multiple types of applications.
+
+If you are new to the Use Cases application, we recommend exploring the following documentation to learn more about [navigating the space](/docs/foundry/use-cases/navigation/) and [getting started](/docs/foundry/use-cases/getting-started/) with your first use case.
+
+### All use cases
+
+This section shows the full list of your use cases, tagged with **Active**, **Experimental**, and **Deprecated** statuses. Click on a use case to explore more details on its overview page.
+
+You can also choose to start a new use case from here. Select **+ Create new** to the right of the screen to open the **+ Create use case** modal.
+
+Learn more about [creating a use case](/docs/foundry/use-cases/getting-started/).
+
+## Use case interface
+
+When you open a use case from the home page, you will find details related to that use case in the **Overview** page and a **section sidebar** to the left that opens pages connected to the sections of the overview. These sidebar sections include:
+
+* [Overview](#overview)
+  * [What is a use case?](#what-is-a-use-case)
+    * [Use case overview page](#use-case-overview-page)
+  * [Features](#features)
+  * [Users](#users)
+    * [All use cases](#all-use-cases)
+  * [Use case interface](#use-case-interface)
+    * [Overview](#overview)
+    * [Applications](#applications)
+    * [Ontology components](#ontology-components)
+    * [Backing data](#backing-data)
+    * [Other resources](#other-resources)
+### Overview
+
+In your use case overview, you can find a summary of Foundry resources related to the use case you created. With these resources, you can create workflows based on Ontology entities or application outputs.
+
+The use case overview also provides quick metadata of your use case, including the description, status, and owners.
+Learn more about [editing metadata](/docs/foundry/use-cases/edit-metadata/) for your use case.
+
+### Applications
+
+In the Applications section, you can find the last three applications you edited and a link to a page that lists all connected applications.
+Click **Create new application** in the upper right of this section in the overview page to open the **Create new application** modal.
+Learn more about [adding applications](/docs/foundry/use-cases/add-application-resources/) to your use case.
+
+You can also click on **Applications** in the sidebar to open the **Applications** page to view a full list of connected applications.
+### Ontology components
+
+The Ontology section of your use case overview contains two subsections: **object types** and **action types**.
+**Object types:** The object types in the use case view are either used by various applications in the use case or were added manually to the use case.
+
+**Action types:** The action types in the use case view are either used by various applications in the use case or were added manually to the use case.
+
+Select **Object types** in the sidebar to open a list of all object types used by applications in the use case or object types that were added manually.
+Click on **Action types** in the sidebar to view a list of action types used by applications in the use case or action types that were added manually to the use case.
+### Backing data
+
+Select the **Backing data** page from the sidebar to view the full list of data sources by object type. For each object type, you can view the list of input datasources and the writeback dataset, if one exists.
+### Other resources
+
+Select **Other resources** on the left sidebar to view a list of all other resources present in the backing Project.

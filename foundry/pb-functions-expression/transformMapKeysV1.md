@@ -1,0 +1,7 @@
+---
+source_url: "https://www.palantir.com/docs/foundry/pb-functions-expression/transformMapKeysV1/"
+parquet_url: "/foundry/pb-functions-expression/transformMapKeysV1/"
+title: "Transform map keys"
+fetched_at: "2026-05-12T19:34:36.701Z"
+---
+Transform map keys. Supported in: Batch, Streaming. Transforms keys of a map by applying an expression to every key-value pair. Expression categories: Map. Declared arguments. Expression to apply: The expression to apply once per key-value pair of the map. Expression<K> Map: Map expression. Expression<Map<AnyType, V>> Type variable bounds: K accepts AnyType**V accepts AnyType. Output type: Map<K, V> Examples. Example 1: Base case. Argument values: Expression to apply: stringBeforeDelimiter( delimiter: -, expression: key, ignoreCase: false, ). Map: flight_number. flight_numberOutput { MT-111 -> 2, XB-134 -> 1, } { MT -> 2, XB -> 1, } Example 2: Base case. Argument values: Expression to apply: cast( expression: key, type: Integer, ). Map: flight_number. flight_numberOutput { 11 -> 1, 22 -> 2, } { 11 -> 1, 22 -> 2, } Example 3: Base case. Argument values: Expression to apply: cast( expression: value, type: String, ). Map: flight_number. flight_numberOutput { 11 -> 1, 22 -> 2, } { 1 -> 1, 2 -> 2, } Example 4: Base case. Argument values: Expression to apply: concatStrings( expressions: [ stringBeforeDelimiter( delimiter: -, expression: key, ignoreCase: false, ), value], separator: -, ). Map: flight_number. flight_numberOutput { MT-111 -> BB, XB-134 -> AA, } { MT-BB -> BB, XB-AA -> AA, }

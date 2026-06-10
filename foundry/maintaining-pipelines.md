@@ -1,0 +1,48 @@
+---
+source_url: "https://www.palantir.com/docs/foundry/maintaining-pipelines/"
+title: "Documentation | Maintaining pipelines > Overview"
+---
+# Maintaining pipelines
+
+As data pipelines are created and productionized in order to support various use cases, some may reach a state where they are no longer under active development and the emphasis is primarily on pipeline maintenance.
+
+This page focuses on the responsibilities of a pipeline maintainer, and the prerequisites to bring a pipeline into maintenance mode:
+
+* [Prerequisites and expectations](#prerequisites-and-expectations)
+* [Pipeline maintenance responsibilities](#pipeline-maintenance-responsibilities)
+
+This rest of this section describes best practices and approaches for pipeline maintenance:
+
+* [Stability recommendations](/docs/foundry/maintaining-pipelines/stability-recommendations/)
+* [Recommended health checks](/docs/foundry/maintaining-pipelines/recommended-health-checks/)
+* [Data expectations overview](/docs/foundry/maintaining-pipelines/define-data-expectations/)
+* [Recommended support processes](/docs/foundry/maintaining-pipelines/support-processes/)
+
+## Prerequisites and expectations
+
+Before you begin maintaining a pipeline, it is important that you have clear expectations defined for it. This will help you set realistic alerting thresholds, prioritize maintenance work and alerts on your pipeline, delineate responsibilities between teams, and most importantly, ensure that the pipeline meets the needs of the users.
+
+The best practices throughout this section assume that you have captured the following expectations:
+
+* What data is in the scope of the pipeline
+* What data is delivered
+* When data is delivered
+* When data is supposed to be built
+  * In particular, whether the pipeline should run over the weekends
+* At what frequency the data should ideally update
+* When data is considered critically out of date
+
+## Pipeline maintenance responsibilities
+
+The responsibilities of a pipeline maintainer include:
+
+* Setting up the technical aspects of pipeline monitoring
+* Debugging the pipeline when it is broken (when health checks fail)
+* Making code changes and/or modifying the monitoring setup where necessary
+* Contacting upstream teams when data is incorrect or not received on time
+
+In order to meet these responsibilities, the following skills and access are recommended for pipeline maintainers:
+
+* Data access (recommended if possible): Proper data access will make it possible to debug issues properly when there is an issue with the data.
+* Technical skills (recommended): Pipeline monitoring team members should be able to read code and navigate pipeline development tools such as Code Repositories, Builds, Data Lineage, and Data Health. This ensures they can interpret and triage issues effectively across the entire pipeline.
+* Familiarity with the pipeline architecture (optional): A team member should familiarize themselves with the pipeline before they begin monitoring. This can be facilitated through documentation and infrastructure knowledge management.

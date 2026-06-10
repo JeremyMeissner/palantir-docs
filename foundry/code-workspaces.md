@@ -1,0 +1,46 @@
+---
+source_url: "https://www.palantir.com/docs/foundry/code-workspaces/"
+title: "Documentation | Code Workspaces > Overview"
+---
+# Code Workspaces
+
+Code Workspaces brings the JupyterLab®, RStudio® Workbench, and VS Code third-party IDEs to Palantir Foundry, enabling users to boost their productivity and accelerate their data science and statistics workflows by using their preferred tools on the high-quality data of the Foundry Ontology. Code Workspaces containers are natively integrated with the rest of the Foundry ecosystem to combine familiar IDEs with the benefits of the Foundry platform, such as data security, branching, build scheduling, and resource management.
+
+Code Workspaces gives platform administrators an easily-deployed, fully-managed, secure, and production-ready way to provide JupyterLab®, RStudio® Workbench, and VS Code to users with Foundry’s data governance and compliance with FedRAMP, GxP, and other standards built-in. With Code Workspaces, users can securely connect to existing internal systems and build analyses, transforms, models, applications, or entire workflows on data with Foundry’s access controls and data permissioning.
+
+## Key features
+
+Key features of Code Workspaces include:
+
+* **Security:** Code Workspaces is built on the core components of [Foundry security](/docs/foundry/security/overview/) that underpin the platform as a whole, like robust permissions and granular access controls. This provides Foundry’s security model to the third-party IDEs available in Code Workspaces. For example, restricting access to a dataset in Foundry will restrict it for Code Workspaces IDEs as well, ensuring consistent permissions across tools.
+* **Customizable environments:** Code Workspaces allows users to define custom environment profiles and increase or decrease the compute resources of their workspace as desired.
+* **Git workflow support:** Code Workspaces are backed by the [Code Repositories](/docs/foundry/code-repositories/overview/) infrastructure, which provides industry-standard version control features like branching, merging, and commit history. These features enable multiple users to operate in the same workspace more easily and safely.
+* **Applications:** Code Workspaces currently supports [Dash ↗](https://plotly.com/dash/) and [Streamlit ↗](https://streamlit.io/) for Python applications and [Shiny® ↗](https://shiny.rstudio.com/) for R applications. Users can create application workflows directly in Code Workspaces with Foundry’s version control, branching, and data governance features built-in.
+* **Model integration:** Users can create model assets from within a Code Workspace and track these assets with [modeling objectives](/docs/foundry/model-integration/objectives/). Multiple models can be created from the same workspace.
+* **Transforms/build integration:** Code Workspaces serves as a development environment for transforms. Logic written in Code Workspaces can be published as data transformation pipelines and seamlessly integrates with Foundry's [data integration](/docs/foundry/data-integration/overview/) toolkit, including builds, schedules, data lineage, and health checks. Code Workspaces supports both R transforms and Python/Jupyter® transforms.
+
+## When to use Code Workspaces
+
+Foundry has a variety of applications you can use for analytical or coding purposes. For example, if you are an analyst, you may be best served by Contour, Foundry’s point-and-click low-code interface for dataset analysis.
+
+If you need to write large-scale data pipelines, set up data connections, or work with streaming data, other Foundry tools have more functionality than Code Workspaces; for these use cases, we recommend using [Pipeline Builder](/docs/foundry/pipeline-builder/overview/), [Data Connection](/docs/foundry/data-connection/overview/), and [Foundry Streaming](/docs/foundry/building-pipelines/streaming-overview/), respectively.
+
+Specifically, Code Workspaces runs on a single node, while other Foundry applications leverage a Spark infrastructure. Thus, we recommend that users performing large-scale data transformations choose [Pipeline Builder](/docs/foundry/pipeline-builder/overview/) or [Code Repositories](/docs/foundry/code-repositories/overview/) instead of Code Workspaces.
+
+Code Workspaces is geared for building machine learning models or those familiar with working in JupyterLab® or RStudio® Workbench.
+
+## Learn more
+
+Code Workspaces currently supports three environments: [JupyterLab®](/docs/foundry/code-workspaces/jupyterlab/), [RStudio®](/docs/foundry/code-workspaces/rstudio/), and [VS Code](/docs/foundry/vs-code/overview/).
+
+More information about Code Workspaces can be found in the [FAQ](/docs/foundry/code-workspaces/code-workspaces-faq/).
+
+[Get started using Code Workspaces with this tutorial.](/docs/foundry/code-workspaces/getting-started/)
+
+***
+
+*RStudio® and Shiny® are trademarks of Posit™.*
+
+*Jupyter®, JupyterLab®, and the Jupyter® logos are trademarks or registered trademarks of NumFOCUS.*
+
+All third-party trademarks (including logos and icons) referenced remain the property of their respective owners. No affiliation or endorsement is implied.

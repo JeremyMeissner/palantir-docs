@@ -1,0 +1,7 @@
+---
+source_url: "https://www.palantir.com/docs/foundry/api/v2/admin-v2-resources/groups/get-group/"
+parquet_url: "/foundry/api/v2/admin-v2-resources/groups/get-group/"
+title: "Get Group"
+fetched_at: "2026-05-12T19:34:37.866Z"
+---
+Get Group. Get the Group with the specified id. Third-party applications using this endpoint via OAuth2 must request the following operation scope: api:admin-read. Path parameters. A Foundry Group ID. Response body. A Foundry Group ID. The name of the Group. A description of the Group. Identifies which Realm a User or Group is a member of. The palantir-internal-realm is used for Users or Groups that are created in Foundry by administrators and not associated with any SSO provider. The RIDs of the Organizations whose members can see this group. At least one Organization RID must be listed. A map of the Group's attributes. Attributes prefixed with "multipass:" are reserved for internal use by Foundry and are subject to change. Examples. Error responses.

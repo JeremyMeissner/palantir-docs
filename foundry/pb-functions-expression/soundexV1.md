@@ -1,0 +1,7 @@
+---
+source_url: "https://www.palantir.com/docs/foundry/pb-functions-expression/soundexV1/"
+parquet_url: "/foundry/pb-functions-expression/soundexV1/"
+title: "Soundex"
+fetched_at: "2026-05-12T19:34:36.578Z"
+---
+Soundex. Supported in: Batch, Faster. Compute the soundex encoding (a phonetic representation) for a word. Expression categories: String. Declared arguments. Expression: Input string (ideally a single word) to be encoded. Expression<String> Output type: String. Examples. Example 1: Base case. Argument values: Expression: input_string. input_stringOutput cat. C300. caat. C300. two. T000. too. T000. to. T000. four. F600. for. F600. fore. F600. fur. F600. meow. M000. me ow. M000. Example 2: Null case. Argument values: Expression: input_string. input_stringOutput null. null. empty string. empty string.

@@ -1,0 +1,7 @@
+---
+source_url: "https://www.palantir.com/docs/foundry/transforms-python-spark/pyspark-strings/"
+parquet_url: "/foundry/transforms-python-spark/pyspark-strings/"
+title: "Strings"
+fetched_at: "2026-05-12T19:34:36.906Z"
+---
+Strings. Strings refer to text data. 1 from pyspark.sql import functions as F. Converting between cases. F.initcap(col). F.lower(col). F.upper(col). Concatenating, splitting. F.concat(*cols). F.concat_ws(sep, *cols). F.split(str, pattern). Substrings. F.instr(str, substr). F.locate(substr, str, pos=1). F.substring(str, pos, len). F.substring_index(str, delim, count). Trimming, padding. F.lpad(col, len, pad). F.ltrim(col). F.rpad(col, len, pad). F.rtrim(col). F.trim(col). Regex. F.regexp_extract(str, pattern, idx). F.regexp_replace(str, pattern, replacement). Misc. F.ascii(col). F.base64(col). F.bin(col). F.conv(col, fromBase, toBase). F.decode(col, charset). F.encode(col, charset). F.format_number(col, d). F.format_string(format, *cols). F.hex(col). F.length(col). F.levenshtein(left, right). F.repeat(col, n). F.reverse(col). F.translate(srcCol, matching, replace). F.unbase64(col). F.unhex(col).
