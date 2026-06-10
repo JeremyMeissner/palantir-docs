@@ -1,7 +1,7 @@
 ---
 source_url: "https://www.palantir.com/docs/foundry/quiver/card-visual-function-metric/"
-parquet_url: "/foundry/quiver/card-visual-function-metric/"
 title: "Visual function metric"
-fetched_at: "2026-05-12T19:34:37.945Z"
 ---
-Visual function metric. Uses a visual function to save repeatable logic that returns a number. Input type. Object set, single object, number, string, time, boolean. Output type. Number. Usage information. FunctionalityAvailability Standard Quiver card. Supported. Transform table transform. Unsupported.
+# Visual function metric
+
+Uses a visual function to save repeatable logic that returns a number. Input type. Object set, single object, number, string, time, boolean. Output type. Number. Usage information. FunctionalityAvailability Standard Quiver card. Supported. Transform table transform. Unsupported.

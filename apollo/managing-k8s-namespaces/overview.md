@@ -1,7 +1,7 @@
 ---
 source_url: "https://www.palantir.com/docs/apollo/managing-k8s-namespaces/overview/"
-parquet_url: "/apollo/managing-k8s-namespaces/overview/"
 title: "Managing Kubernetes namespaces"
-fetched_at: "2026-05-12T19:34:38.036Z"
 ---
-Managing Kubernetes namespaces. Apollo supports managing Kubernetes namespaces in your Environments. You can create, delete, and update the description of your namespaces. Once created, you can specify what namespace to install an Entity into during the Entity installation process. Getting started. Create and delete a Kubernetes namespace. Install an Entity in a Kubernetes namespace.
+# Managing Kubernetes namespaces
+
+Apollo supports managing Kubernetes namespaces in your Environments. You can create, delete, and update the description of your namespaces. Once created, you can specify what namespace to install an Entity into during the Entity installation process. Getting started. Create and delete a Kubernetes namespace. Install an Entity in a Kubernetes namespace.

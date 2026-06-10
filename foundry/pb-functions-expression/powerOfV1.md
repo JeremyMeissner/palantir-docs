@@ -1,7 +1,7 @@
 ---
 source_url: "https://www.palantir.com/docs/foundry/pb-functions-expression/powerOfV1/"
-parquet_url: "/foundry/pb-functions-expression/powerOfV1/"
 title: "Power of"
-fetched_at: "2026-05-12T19:34:36.600Z"
 ---
-Power of. Supported in: Batch, Faster, Streaming. Calculates power of expression to exponent. If any of the values is null, returns null. Expression categories: Numeric. Declared arguments. Exponent: The exponent for the power of. Expression<Numeric> Expression: The base for the power of. Expression<Numeric> Output type: Double. Examples. Example 1: Base case. Argument values: Exponent: 3. Expression: 10. Output: 1000.0. Example 2: Base case. Argument values: Exponent: 3.0. Expression: 10. Output: 1000.0. Example 3: Null case. Description: Whenever one of the arguments is null, the output will be null. Argument values: Exponent: null. Expression: 10. Output: null. Example 4: Null case. Description: Whenever one of the arguments is null, the output will be null. Argument values: Exponent: 3. Expression: null. Output: null.
+# Power of
+
+Supported in: Batch, Faster, Streaming. Calculates power of expression to exponent. If any of the values is null, returns null. Expression categories: Numeric. Declared arguments. Exponent: The exponent for the power of. Expression<Numeric> Expression: The base for the power of. Expression<Numeric> Output type: Double. Examples. Example 1: Base case. Argument values: Exponent: 3. Expression: 10. Output: 1000.0. Example 2: Base case. Argument values: Exponent: 3.0. Expression: 10. Output: 1000.0. Example 3: Null case. Description: Whenever one of the arguments is null, the output will be null. Argument values: Exponent: null. Expression: 10. Output: null. Example 4: Null case. Description: Whenever one of the arguments is null, the output will be null. Argument values: Exponent: 3. Expression: null. Output: null.

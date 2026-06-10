@@ -1,7 +1,7 @@
 ---
 source_url: "https://www.palantir.com/docs/foundry/pb-functions-expression/timestampToEpochMillisV1/"
-parquet_url: "/foundry/pb-functions-expression/timestampToEpochMillisV1/"
 title: "Timestamp to epoch millis"
-fetched_at: "2026-05-12T19:34:36.603Z"
 ---
-Timestamp to epoch millis. Supported in: Batch, Faster, Streaming. Converts from timestamp in UTC to epoch milliseconds. Expression categories: Cast, Datetime. Declared arguments. Timestamp: Timestamp to convert to epoch milliseconds. Expression<Timestamp> Output type: Long. Examples. Example 1: Base case. Argument values: Timestamp: 2022-10-01T09:00:00Z. Output: 1664614800000. Example 2: Null case. Argument values: Timestamp: null. Output: null.
+# Timestamp to epoch millis
+
+Supported in: Batch, Faster, Streaming. Converts from timestamp in UTC to epoch milliseconds. Expression categories: Cast, Datetime. Declared arguments. Timestamp: Timestamp to convert to epoch milliseconds. Expression<Timestamp> Output type: Long. Examples. Example 1: Base case. Argument values: Timestamp: 2022-10-01T09:00:00Z. Output: 1664614800000. Example 2: Null case. Argument values: Timestamp: null. Output: null.

@@ -1,7 +1,7 @@
 ---
 source_url: "https://www.palantir.com/docs/foundry/object-link-types/edit-struct-type/"
-parquet_url: "/foundry/object-link-types/edit-struct-type/"
 title: "Edit a struct property type"
-fetched_at: "2026-05-12T19:34:36.115Z"
 ---
-Edit a struct property type. In Ontology Manager, open the Object types tab in the left sidebar and select an existing object type. In the object type details page, open the Properties tab in the left sidebar, and select the relevant struct property type from the Properties table. In the Property editor panel, scroll to the Struct fields section and select the struct field you would like to edit. The number of edits made will appear on the top right of the Ontology Manager interface. Make the necessary edits in the Edit struct field dialog, and select Confirm. Note that changing a struct field's API name will result in a new struct field RID being generated. This will override the existing index, similar to the behavior of changing the property ID of a property type. Any applications that reference the updated struct field will need to be updated as well.
+# Edit a struct property type
+
+In Ontology Manager, open the Object types tab in the left sidebar and select an existing object type. In the object type details page, open the Properties tab in the left sidebar, and select the relevant struct property type from the Properties table. In the Property editor panel, scroll to the Struct fields section and select the struct field you would like to edit. The number of edits made will appear on the top right of the Ontology Manager interface. Make the necessary edits in the Edit struct field dialog, and select Confirm. Note that changing a struct field's API name will result in a new struct field RID being generated. This will override the existing index, similar to the behavior of changing the property ID of a property type. Any applications that reference the updated struct field will need to be updated as well.

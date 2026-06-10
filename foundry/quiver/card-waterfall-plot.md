@@ -1,7 +1,7 @@
 ---
 source_url: "https://www.palantir.com/docs/foundry/quiver/card-waterfall-plot/"
-parquet_url: "/foundry/quiver/card-waterfall-plot/"
 title: "Waterfall plot"
-fetched_at: "2026-05-12T19:34:37.908Z"
 ---
-Waterfall plot. Create a waterfall plot by defining series on an object set, or by specifying numeric values. When constructed from an object set, its possible to group by a property and calculate a metric (average, count, min, max, sum, unique count) to calculate the buckets. Its also possible to "compute total" which will add an additional bucket which computes the total of all buckets in the series. Input type. Object set, number. Output type. Flow end. Usage information. FunctionalityAvailability Standard Quiver card. Supported. Transform table transform. Unsupported.
+# Waterfall plot
+
+Create a waterfall plot by defining series on an object set, or by specifying numeric values. When constructed from an object set, its possible to group by a property and calculate a metric (average, count, min, max, sum, unique count) to calculate the buckets. Its also possible to "compute total" which will add an additional bucket which computes the total of all buckets in the series. Input type. Object set, number. Output type. Flow end. Usage information. FunctionalityAvailability Standard Quiver card. Supported. Transform table transform. Unsupported.

@@ -1,8 +1,6 @@
 ---
 source_url: "https://www.palantir.com/docs/foundry/workshop/widgets-event-navigational/"
-parquet_url: "/foundry/workshop/widgets-event-navigational/"
 title: "Workshop \u2022 Event-trigger & navigational widgets \u2022 Overview \u2022 Palantir"
-fetched_at: "2026-05-12T19:34:37.214Z"
 ---
 # Workshop • Event-trigger & navigational widgets • Overview • Palantir
 

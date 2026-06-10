@@ -1,8 +1,6 @@
 ---
 source_url: "https://www.palantir.com/docs/foundry/object-link-types/copy-object-type-config/"
-parquet_url: "/foundry/object-link-types/copy-object-type-config/"
 title: "Object and link types \u2022 Object types \u2022 Copy object type configuration \u2022 Palantir"
-fetched_at: "2026-05-12T19:34:36.105Z"
 ---
 # Object and link types • Object types • Copy object type configuration • Palantir
 

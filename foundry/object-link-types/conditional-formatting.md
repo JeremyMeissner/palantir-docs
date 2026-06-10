@@ -1,8 +1,6 @@
 ---
 source_url: "https://www.palantir.com/docs/foundry/object-link-types/conditional-formatting/"
-parquet_url: "/foundry/object-link-types/conditional-formatting/"
 title: "Object and link types \u2022 Properties \u2022 Add conditional formatting \u2022 Palantir"
-fetched_at: "2026-05-12T19:34:36.111Z"
 ---
 # Object and link types • Properties • Add conditional formatting • Palantir
 

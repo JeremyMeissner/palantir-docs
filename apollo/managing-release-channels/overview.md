@@ -1,7 +1,7 @@
 ---
 source_url: "https://www.palantir.com/docs/apollo/managing-release-channels/overview/"
-parquet_url: "/apollo/managing-release-channels/overview/"
 title: "Overview"
-fetched_at: "2026-05-12T19:34:38.177Z"
 ---
-Overview. The following section will walk through the workflows related to Release channels and how to leverage these workflows to safely roll out new Product Releases as a Product Release creator or customize Product updates you receive as an Environment Editor.
+# Overview
+
+The following section will walk through the workflows related to Release channels and how to leverage these workflows to safely roll out new Product Releases as a Product Release creator or customize Product updates you receive as an Environment Editor.

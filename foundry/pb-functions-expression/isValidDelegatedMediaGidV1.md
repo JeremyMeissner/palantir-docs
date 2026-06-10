@@ -1,7 +1,7 @@
 ---
 source_url: "https://www.palantir.com/docs/foundry/pb-functions-expression/isValidDelegatedMediaGidV1/"
-parquet_url: "/foundry/pb-functions-expression/isValidDelegatedMediaGidV1/"
 title: "Is valid delegated media gid"
-fetched_at: "2026-05-12T19:34:36.657Z"
 ---
-Is valid delegated media gid. Supported in: Batch, Faster, Streaming. Returns true if the input is a valid gotham delegated media gid. Check gotham's delegated media rtfm for more details. Expression categories: Boolean. Declared arguments. Expression: String to check is a valid gotham delegated media. Expression<String> Output type: Boolean. Examples. Example 1: Base case. Argument values: Expression: hello. Output: false. Example 2: Base case. Argument values: Expression: ri.gotham-delegated-media.12345678-1234-1234-1234-123456789012.testaudiotype.testlocator. Output: true. Example 3: Null case. Argument values: Expression: null. Output: null.
+# Is valid delegated media gid
+
+Supported in: Batch, Faster, Streaming. Returns true if the input is a valid gotham delegated media gid. Check gotham's delegated media rtfm for more details. Expression categories: Boolean. Declared arguments. Expression: String to check is a valid gotham delegated media. Expression<String> Output type: Boolean. Examples. Example 1: Base case. Argument values: Expression: hello. Output: false. Example 2: Base case. Argument values: Expression: ri.gotham-delegated-media.12345678-1234-1234-1234-123456789012.testaudiotype.testlocator. Output: true. Example 3: Null case. Argument values: Expression: null. Output: null.

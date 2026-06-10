@@ -1,7 +1,7 @@
 ---
 source_url: "https://www.palantir.com/docs/foundry/quiver/card-set-math/"
-parquet_url: "/foundry/quiver/card-set-math/"
 title: "Set math"
-fetched_at: "2026-05-12T19:34:37.894Z"
 ---
-Set math. Takes as input two (or more) object sets of the same type and returns a combined object set based on operations defined by the user. Supported operations are the union, intersection, or difference of two object sets. Input type. Object set. Output type. Object set. Examples. In the example below, we are using set math to find the difference between a set of 48,895 Airbnb objects ($B) and a filtered set of 22,326 Airbnb objects ($D). The output is the set ($E) of 26,569 Airbnb objects in $B but not in $D. Airbnb data used in this example is open source. Usage information. FunctionalityAvailability Standard Quiver card. Supported. Transform table transform. Unsupported.
+# Set math
+
+Takes as input two (or more) object sets of the same type and returns a combined object set based on operations defined by the user. Supported operations are the union, intersection, or difference of two object sets. Input type. Object set. Output type. Object set. Examples. In the example below, we are using set math to find the difference between a set of 48,895 Airbnb objects ($B) and a filtered set of 22,326 Airbnb objects ($D). The output is the set ($E) of 26,569 Airbnb objects in $B but not in $D. Airbnb data used in this example is open source. Usage information. FunctionalityAvailability Standard Quiver card. Supported. Transform table transform. Unsupported.

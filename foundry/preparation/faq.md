@@ -1,8 +1,6 @@
 ---
 source_url: "https://www.palantir.com/docs/foundry/preparation/faq/"
-parquet_url: "/foundry/preparation/faq/"
 title: "Preparation [Sunset] \u2022 FAQ \u2022 Palantir"
-fetched_at: "2026-05-12T19:34:35.924Z"
 ---
 # Preparation [Sunset] • FAQ • Palantir
 

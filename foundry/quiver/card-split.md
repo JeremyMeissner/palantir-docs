@@ -1,7 +1,7 @@
 ---
 source_url: "https://www.palantir.com/docs/foundry/quiver/card-split/"
-parquet_url: "/foundry/quiver/card-split/"
 title: "Split"
-fetched_at: "2026-05-12T19:34:38.009Z"
 ---
-Split. Returns a string array from a string input, split on a delimiter string. Input type. String. Output type. String array. Usage information. FunctionalityAvailability Standard Quiver card. Supported. Transform table transform. Supported.
+# Split
+
+Returns a string array from a string input, split on a delimiter string. Input type. String. Output type. String array. Usage information. FunctionalityAvailability Standard Quiver card. Supported. Transform table transform. Supported.

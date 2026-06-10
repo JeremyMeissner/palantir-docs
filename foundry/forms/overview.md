@@ -1,7 +1,7 @@
 ---
 source_url: "https://www.palantir.com/docs/foundry/forms/overview/"
-parquet_url: "/foundry/forms/overview/"
 title: "Forms [Sunset]"
-fetched_at: "2026-05-12T19:34:35.801Z"
 ---
+# Forms [Sunset]
+
 Forms [Sunset] Sunset. Forms is in the sunset phase of development and will be deprecated at a future date. Full support remains available. We recommend building user input workflows with the Ontology to represent relevant data structures as object types and configure writeback interactions with Actions and Functions: Actions: Gain more robust and granular control over permissions associated with adding, editing, and deleting data, including respect for restricted views and configuring complex conditional permissions. Actions are natively supported in Workshop and Slate where complex data entry user experience can be crafted with the full suite of application building tools. Actions also automatically generate API bindings for the platform API to enable you to write data into external data systems or trigger other downstream effects. Functions: Actions can be backed by Functions to allow for more expressive and complex writeback logic. What is Forms? Forms is a form-building interface that seamlessly integrates with other Foundry applications. Forms allows for an intuitive experience without sacrificing complex configurability. With Forms, users with no previous coding experience can create and manage customized data entry and storage solutions. Users can configure a variety of workflows with Forms, including: Defining dynamic fields to direct data from respondents. Embedding forms as sections in Object Explorer and Slate. Storing collected information in Fusion. Get started with Forms by learning how to create a form or review and edit form responses.

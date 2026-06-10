@@ -1,7 +1,7 @@
 ---
 source_url: "https://www.palantir.com/docs/foundry/pb-functions-expression/bitShiftLeftV1/"
-parquet_url: "/foundry/pb-functions-expression/bitShiftLeftV1/"
 title: "Bit shift left"
-fetched_at: "2026-05-12T19:34:36.667Z"
 ---
-Bit shift left. Supported in: Batch, Streaming. Shift the given value a number of bits left. Expression categories: Binary. Declared arguments. Expression: The value to shift left. Expression<E> Number of bits: The number of bits to shift left by. Literal<Integer> Type variable bounds: E accepts Byte | Integer | Long | Short. Output type: E. Examples. Example 1: Base case. Argument values: Expression: 1. Number of bits: 1. Output: 2. Example 2: Base case. Argument values: Expression: 12345678910. Number of bits: 5. Output: 395061725120. Example 3: Null case. Argument values: Expression: number. Number of bits: 1. numberOutput null. null. Example 4: Edge case. Argument values: Expression: -2147483648. Number of bits: 100. Output: 0. Example 5: Edge case. Argument values: Expression: 2147483647. Number of bits: 10. Output: -1024. Example 6: Edge case. Argument values: Expression: 1. Number of bits: -10. Output: 4194304.
+# Bit shift left
+
+Supported in: Batch, Streaming. Shift the given value a number of bits left. Expression categories: Binary. Declared arguments. Expression: The value to shift left. Expression<E> Number of bits: The number of bits to shift left by. Literal<Integer> Type variable bounds: E accepts Byte | Integer | Long | Short. Output type: E. Examples. Example 1: Base case. Argument values: Expression: 1. Number of bits: 1. Output: 2. Example 2: Base case. Argument values: Expression: 12345678910. Number of bits: 5. Output: 395061725120. Example 3: Null case. Argument values: Expression: number. Number of bits: 1. numberOutput null. null. Example 4: Edge case. Argument values: Expression: -2147483648. Number of bits: 100. Output: 0. Example 5: Edge case. Argument values: Expression: 2147483647. Number of bits: 10. Output: -1024. Example 6: Edge case. Argument values: Expression: 1. Number of bits: -10. Output: 4194304.
